@@ -1,6 +1,13 @@
 function affiche(){
-	setTimeout(function(){ alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");}, 10000);
+  setTimeout(opening, 5000);
 }
+
+function opening(){
+  if (confirm("Hey le site xxxvidsxxx est trop bien. Veux-tu y aller ?")){
+   window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  } 
+}
+  
 
 
 document.getElementById('changeMode').onclick = psychedelique;
