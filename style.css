@@ -1,0 +1,35 @@
+body{
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 0px;
+	background: white;
+}
+
+
+.liste li {
+	list-style: none; 
+}
+
+.btn{
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+	height: 70px;
+	border: none;
+	border-radius: 3px;
+	background-color: #4beb6b;
+	color: #fff;
+	box-shadow: 3px 3px 5px #b3b3b3;
+}
+
+.btn:hover{
+	background-color: #44d461;
+	font-size: 21px;
+	box-shadow: 5px 5px 5px #b3b3b3;
+}
+
+.bouton{
+	width: 50%;
+	margin: 40px auto;
+	padding-left: 50px;
+}
